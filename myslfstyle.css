@@ -8,16 +8,16 @@ body {
     display: flex;
     flex-direction: column;
 }
-
 .header {
-    padding: 20px;
+    padding: 1.25rem;
     text-align: center;
-    border-bottom: 1px solid #444;
+    border-bottom: 0.0625rem solid #444;
 }
+
 .logo {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: bold;
-    letter-spacing: 4px;
+    letter-spacing: 0.25rem;
     font-family: 'Times New Roman', serif;
 }
 
@@ -25,18 +25,18 @@ body {
     display: flex;
     justify-content: center;
     padding: 0;
-    margin: 20px 0;
+    margin: 1.25rem 0;
     list-style: none;
 }
 
 .navigation ul li, .sub-navigation ul li {
-    margin: 0 15px;
+    margin: 0 0.9375rem;
 }
 
 .navigation ul li a, .sub-navigation ul li a {
     text-decoration: none;
     color: #fff;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .navigation ul li a:hover, .sub-navigation ul li a:hover {
@@ -44,102 +44,115 @@ body {
 }
 
 .sub-navigation ul li a {
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
+
 .title {
-    width: 1200px; /* Match the width of the image */
-    text-align: center; /* Center-align the content */
-    margin: 0 auto; /* Center the container */
-    border-bottom: 2px solid #555555; /* Bottom border */
-    padding-bottom: 20px; /* Space between image and border */
-    margin-bottom: 30px; /* Space between this section and the next div */
+    max-width: 75rem;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 0.125rem solid #555555;
+    padding-bottom: 0.125rem;
+    margin-bottom: 1.87rem;
+    margin-top: 0.125rem;
 }
 
 .title img {
-    display: block; /* Removes small gap under the image */
-    margin: 0 auto; /* Center the image */
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
 }
 
-.perfume{
-    text-align: center;
+.note {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.625rem;
+    margin: 0 auto;
+    padding-bottom: 1.25rem;
+    border-bottom: 0.13rem solid #555555;
+    margin-bottom: 1.87rem;
+    margin-top: 0.125rem;
 }
 
 .citrus {
-    width: 20px;
-    height: 20px;
+    width: 1.25rem;
+    height: 1.25rem;
     background-color: yellow;
-    color: black;
-    transition: width 2s;
-    overflow: hidden; /* Ensures content is hidden when not visible */
-}
-
-.citrus p {
-    opacity: 0; /* Hide text initially */
-    transition: opacity 0.5s; /* Smooth fade-in effect */
-}
-
-.citrus:hover {
-    width: 200px;
-}
-
-.citrus:hover p {
-    opacity: 1; /* Show text on hover */
-}
-
-.whitefloral{
-    width: 20px;
-    height: 20px;
-    background-color: white;
-    color: black;
-    transition: width 2s;
-    overflow: hidden; /* Ensures content is hidden when not visible */
-}
-
-.whitefloral p {
-    opacity: 0; /* Hide text initially */
-    transition: opacity 0.5s; /* Smooth fade-in effect */
-}
-
-.whitefloral:hover {
-    width: 200px;
-}
-
-.whitefloral :hover p {
-    opacity: 1; /* Show text on hover */
-}
-
-.patchouli{
-    width: 20px;
-    height: 20px;
-    background-color: #C4A484;
     color: black;
     transition: width 2s;
     overflow: hidden;
 }
 
-.patchouli p {
+.citrus p {
     opacity: 0;
     transition: opacity 0.5s;
 }
 
-.patchouli:hover {
-    width: 200px;
+.citrus:hover {
+    width: 12.5rem;
 }
 
-.patchouli :hover p {
+.citrus:hover p {
     opacity: 1;
 }
 
-.citrus, .whitefloral, .patchouli {
-    padding: 20px;
-    margin: 10px 0;
+.whitefloral{
+    width: 1.25rem;
+    height: 1.25rem;
+    background-color: white;
+    color: black;
+    transition: width 2s;
+    overflow: hidden;
+}
+
+.whitefloral p{
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.whitefloral:hover{
+    width: 12.5rem;
+}
+
+.whitefloral:hover p {
+    opacity: 1;
+}
+
+.patchouli{
+    width: 1.25rem;
+    height: 1.25rem;
+    background-color: #988558;
+    color: black;
+    transition: width 2s;
+    overflow: hidden;
+}
+
+.patchouli p{
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.patchouli:hover{
+    width: 12.5rem;
+}
+
+.patchouli:hover p {
+    opacity: 1;
+}
+
+.citrus, .whitefloral, .patchouli{
+    padding: 1.25rem;
+    margin: 0.625rem;
     display: block;
 }
 
 .freshspicy {
-    width: 20px;
-    height: 20px;
+    width: 1.25rem;
+    height: 1.25rem;
     background-color: darkseagreen;
     color: black;
     transition: width 2s;
@@ -152,7 +165,7 @@ body {
 }
 
 .freshspicy:hover {
-    width: 200px;
+    width: 12.5rem;
 }
 
 .freshspicy:hover p {
@@ -160,8 +173,8 @@ body {
 }
 
 .woody {
-    width: 20px;
-    height: 20px;
+    width: 1.25rem;
+    height: 1.25rem;
     background-color: #C19A6B;
     color: black;
     transition: width 2s;
@@ -170,7 +183,7 @@ body {
 
 .woody p {
     opacity: 0;
-    display: none; 
+    display: none;
     transition: opacity 0.5s;
 }
 
@@ -180,12 +193,12 @@ body {
 }
 
 .woody:hover {
-    width: 200px;
+    width: 12.5rem;
 }
 
 .sweet {
-    width: 20px;
-    height: 20px;
+    width: 1.25rem;
+    height: 1.25rem;
     background-color: #F88379;
     color: black;
     transition: width 2s;
@@ -198,24 +211,98 @@ body {
 }
 
 .sweet:hover {
-    width: 200px;
+    width: 12.5rem;
 }
 
 .sweet:hover p {
     opacity: 1;
 }
 
+.note{
+    text-align: center;
+    display: block;
+}
+.citrus, .whitefloral, .patchouli , .woody , .freshspicy, .sweet {
+    display: flex;
+    justify-content: flex-start; /* Aligns to the left */
+    gap: 10px; /* Adds space between items */
+    flex-wrap: wrap;
+    padding: 1.25rem;
+    margin: 0.625rem 0;
+}
+
+
+.notes {
+    margin-left: 2rem;
+}
+
+.perfume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.625rem;
+    margin: 0 auto;
+    padding-bottom: 1.25rem;
+    border-bottom: 0.13rem solid #555555;
+    margin-bottom: 1.87rem;
+    margin-top: 0.125rem;
+
+}
+
+.perfume img {
+    max-width: 100%;
+    height: auto;
+}
+
+.story {
+    position: relative;
+    margin: 20px;
+}
+
+.story h3 {
+    text-align: center;
+    top: 0;
+    padding: 10px;
+    margin: 0;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.content .text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.content .stories {
+    flex-shrink: 0;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
 
 .footer {
     text-align: center;
-    padding: 20px;
-    border-top: 1px solid #555;
-    margin-top: 40px;
+    padding: 1.25rem;
+    border-top: 0.1rem solid #555;
+    margin-top: 4rem;
 }
 
 .footer a {
     color: #fff;
     text-decoration: none;
-    font-size: 14px;
-    margin: 0 10px;
- }
+    font-size: 0.875rem;
+    margin: 0 1rem;
+}
+
+
+

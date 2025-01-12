@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    padding: 1.25rem;
+    text-align: center;
+    border-bottom: 0.0625rem solid #444;
+}
+
+.logo {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 0.25rem;
+    font-family: 'Times New Roman', serif;
+}
+
+.navigation ul, .sub-navigation ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 1.25rem 0;
+    list-style: none;
+}
+
+.navigation ul li, .sub-navigation ul li {
+    margin: 0 0.9375rem;
+}
+
+.navigation ul li a, .sub-navigation ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.875rem;
+}
+
+.navigation ul li a:hover, .sub-navigation ul li a:hover {
+    color: #ccc;
+}
+
+.sub-navigation ul li a {
+    font-size: 0.75rem;
+}

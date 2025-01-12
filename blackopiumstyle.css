@@ -48,9 +48,28 @@ body {
     font-size: 0.75rem;
 }
 
-
-.pics{
+.banner{
     padding: 25px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.625rem;
+    margin: 0 auto;
+    padding-bottom: 1.25rem;
+    border-bottom: 0.13rem solid #555555;
+    margin-bottom: 1.87rem;
+    margin-top: 0.125rem;
+
+}
+
+#carouselExampleIndicators {
+    width: 20%;
+    height: 50%;
+    display: inline-block;
+    align-items: center;
+    margin: 50px auto;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -62,14 +81,6 @@ body {
     margin-bottom: 1.87rem;
     margin-top: 0.125rem;
 }
-
-.perfumes{
-    padding: 30px;
-    text-align: center;
-    align-items: center;
-    border-bottom: 0.13rem solid #555555;
-}
-
 
 .campaign{
     padding: 20px;
@@ -85,39 +96,30 @@ body {
     margin-top: 0.125rem;
 }
 
-.story{
-    font-family: Georgia, serif;
-    text-align: left;
-    width: 50%;
-    text-space: 100px;
-    float:left;
-    padding: 10px;
-
-}
-
-.story h3{
-    text-align: center;
-}
-.stories{
-    padding:3rem;
-    float:right;
-}
-
-.container {
-    padding: 5rem;
-    flex: 1;
+.fragrance{
+    background-color: gray;
+    box-shadow: 10px 10px 5px white;
+    color: black;
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    align-items: center;
+    padding: 30px;
+    border-radius: 0.625rem;
 }
 
 .footer {
     text-align: center;
-    padding: 20px;
-    border-top: 1px solid #555;
-    margin-top: 40px;
+    padding: 1.25rem;
+    border-top: 0.0625rem solid #555;
+    margin-top: 0.875rem;
 }
 
 .footer a {
     color: #fff;
     text-decoration: none;
-    font-size: 14px;
-    margin: 0 10px;
+    font-size: 0.875rem;
+    margin: 0 0.625rem;
 }
