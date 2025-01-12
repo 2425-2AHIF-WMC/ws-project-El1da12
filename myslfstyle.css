@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #444;
+}
+.logo {
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-family: 'Times New Roman', serif;
+}
+
+.navigation ul, .sub-navigation ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 20px 0;
+    list-style: none;
+}
+
+.navigation ul li, .sub-navigation ul li {
+    margin: 0 15px;
+}
+
+.navigation ul li a, .sub-navigation ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.navigation ul li a:hover, .sub-navigation ul li a:hover {
+    color: #ccc;
+}
+
+.sub-navigation ul li a {
+    font-size: 12px;
+}
+
+.title {
+    width: 1200px; /* Match the width of the image */
+    text-align: center; /* Center-align the content */
+    margin: 0 auto; /* Center the container */
+    border-bottom: 2px solid #555555; /* Bottom border */
+    padding-bottom: 20px; /* Space between image and border */
+    margin-bottom: 30px; /* Space between this section and the next div */
+}
+
+.title img {
+    display: block; /* Removes small gap under the image */
+    margin: 0 auto; /* Center the image */
+}
+
+.perfume{
+    text-align: center;
+}
+
+.citrus {
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    color: black;
+    transition: width 2s;
+    overflow: hidden; /* Ensures content is hidden when not visible */
+}
+
+.citrus p {
+    opacity: 0; /* Hide text initially */
+    transition: opacity 0.5s; /* Smooth fade-in effect */
+}
+
+.citrus:hover {
+    width: 200px;
+}
+
+.citrus:hover p {
+    opacity: 1; /* Show text on hover */
+}
+
+.whitefloral{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    color: black;
+    transition: width 2s;
+    overflow: hidden; /* Ensures content is hidden when not visible */
+}
+
+.whitefloral p {
+    opacity: 0; /* Hide text initially */
+    transition: opacity 0.5s; /* Smooth fade-in effect */
+}
+
+.whitefloral:hover {
+    width: 200px;
+}
+
+.whitefloral :hover p {
+    opacity: 1; /* Show text on hover */
+}
+
+.patchouli{
+    width: 20px;
+    height: 20px;
+    background-color: #C4A484;
+    color: black;
+    transition: width 2s;
+    overflow: hidden;
+}
+
+.patchouli p {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.patchouli:hover {
+    width: 200px;
+}
+
+.patchouli :hover p {
+    opacity: 1;
+}
+
+.citrus, .whitefloral, .patchouli {
+    padding: 20px;
+    margin: 10px 0;
+    display: block;
+}
+
+.freshspicy {
+    width: 20px;
+    height: 20px;
+    background-color: darkseagreen;
+    color: black;
+    transition: width 2s;
+    overflow: hidden;
+}
+
+.freshspicy p {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.freshspicy:hover {
+    width: 200px;
+}
+
+.freshspicy:hover p {
+    opacity: 1;
+}
+
+.woody {
+    width: 20px;
+    height: 20px;
+    background-color: #C19A6B;
+    color: black;
+    transition: width 2s;
+    overflow: hidden;
+}
+
+.woody p {
+    opacity: 0;
+    display: none; 
+    transition: opacity 0.5s;
+}
+
+.woody:hover p {
+    display: block;
+    opacity: 1;
+}
+
+.woody:hover {
+    width: 200px;
+}
+
+.sweet {
+    width: 20px;
+    height: 20px;
+    background-color: #F88379;
+    color: black;
+    transition: width 2s;
+    overflow: hidden;
+}
+
+.sweet p {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.sweet:hover {
+    width: 200px;
+}
+
+.sweet:hover p {
+    opacity: 1;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #555;
+    margin-top: 40px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 10px;
+ }

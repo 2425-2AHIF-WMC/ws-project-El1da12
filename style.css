@@ -1,8 +1,12 @@
 body {
     margin: 0;
+    padding: 0;
+    height: 100%;
     font-family: 'Arial', sans-serif;
     background-color: #000;
     color: #fff;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -47,4 +51,51 @@ body {
 .pics{
     padding: 25px;
     text-align: center;
+}
+
+.perfumes{
+    padding: 30px;
+    text-align: center;
+}
+
+.campaign{
+    padding: 20px;
+    text-align: center;
+}
+
+.story{
+    font-family: Georgia, serif;
+    text-align: left;
+    width: 50%;
+    text-space: 100px;
+    float:left;
+    padding: 10px;
+
+}
+
+.story h3{
+    text-align: center;
+}
+.stories{
+    padding:3rem;
+    float:right;
+}
+
+.container {
+    padding: 5rem;
+    flex: 1;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #555;
+    margin-top: 40px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 10px;
 }
