@@ -224,8 +224,8 @@ body {
 }
 .citrus, .whitefloral, .patchouli , .woody , .freshspicy, .sweet {
     display: flex;
-    justify-content: flex-start; /* Aligns to the left */
-    gap: 10px; /* Adds space between items */
+    justify-content: flex-start;
+    gap: 0.625rem;
     flex-wrap: wrap;
     padding: 1.25rem;
     margin: 0.625rem 0;
@@ -242,10 +242,9 @@ body {
     align-items: center;
     gap: 0.625rem;
     margin: 0 auto;
-    padding-bottom: 1.25rem;
+    padding: 5rem;
     border-bottom: 0.13rem solid #555555;
-    margin-bottom: 1.87rem;
-    margin-top: 0.125rem;
+    text-align: center;
 
 }
 

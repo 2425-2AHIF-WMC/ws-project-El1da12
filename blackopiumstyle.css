@@ -65,39 +65,32 @@ body {
 }
 
 #carouselExampleIndicators {
-    width: 20%;
+    width: 40%;
     height: 50%;
     display: inline-block;
     align-items: center;
-    margin: 50px auto;
     text-align: center;
-    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.625rem;
     margin: 0 auto;
     padding-bottom: 1.25rem;
     border-bottom: 0.13rem solid #555555;
-    margin-bottom: 1.87rem;
-    margin-top: 0.125rem;
 }
 
 .campaign{
-    padding: 20px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.625rem;
     margin: 0 auto;
-    padding-bottom: 1.25rem;
+    padding: 1.25rem;
     border-bottom: 0.13rem solid #555555;
-    margin-bottom: 1.87rem;
-    margin-top: 0.125rem;
 }
 
 .fragrance{
-    background-color: gray;
+    background-color: #c0c0c0;
     box-shadow: 10px 10px 5px white;
     color: black;
     width: 80%;
